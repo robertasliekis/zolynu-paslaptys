@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "//robertasliekis.github.io/zolynu-paslaptys/static/css/main.f7fa8f3b.chunk.css",
+    "main.js": "//robertasliekis.github.io/zolynu-paslaptys/static/js/main.d1bacc4f.chunk.js",
+    "main.js.map": "//robertasliekis.github.io/zolynu-paslaptys/static/js/main.d1bacc4f.chunk.js.map",
+    "runtime-main.js": "//robertasliekis.github.io/zolynu-paslaptys/static/js/runtime-main.23083dbb.js",
+    "runtime-main.js.map": "//robertasliekis.github.io/zolynu-paslaptys/static/js/runtime-main.23083dbb.js.map",
+    "static/js/2.aab99417.chunk.js": "//robertasliekis.github.io/zolynu-paslaptys/static/js/2.aab99417.chunk.js",
+    "static/js/2.aab99417.chunk.js.map": "//robertasliekis.github.io/zolynu-paslaptys/static/js/2.aab99417.chunk.js.map",
+    "index.html": "//robertasliekis.github.io/zolynu-paslaptys/index.html",
+    "precache-manifest.83d22bd6ae8f7cdef643c36b45c4a1ce.js": "//robertasliekis.github.io/zolynu-paslaptys/precache-manifest.83d22bd6ae8f7cdef643c36b45c4a1ce.js",
+    "service-worker.js": "//robertasliekis.github.io/zolynu-paslaptys/service-worker.js",
+    "static/css/main.f7fa8f3b.chunk.css.map": "//robertasliekis.github.io/zolynu-paslaptys/static/css/main.f7fa8f3b.chunk.css.map",
+    "static/js/2.aab99417.chunk.js.LICENSE.txt": "//robertasliekis.github.io/zolynu-paslaptys/static/js/2.aab99417.chunk.js.LICENSE.txt",
+    "static/media/Interaktyvi_knyga_išklotinė.mp4": "//robertasliekis.github.io/zolynu-paslaptys/static/media/Interaktyvi_knyga_išklotinė.3964e99f.mp4",
+    "static/media/ajeras1.jpg": "//robertasliekis.github.io/zolynu-paslaptys/static/media/ajeras1.8e402d03.jpg",
+    "static/media/ajeras2.jpg": "//robertasliekis.github.io/zolynu-paslaptys/static/media/ajeras2.b734cd64.jpg",
+    "static/media/ajeras3.jpg": "//robertasliekis.github.io/zolynu-paslaptys/static/media/ajeras3.6eaf19d6.jpg",
+    "static/media/dilgele1.jpg": "//robertasliekis.github.io/zolynu-paslaptys/static/media/dilgele1.9b2d31eb.jpg",
+    "static/media/dilgele2.jpg": "//robertasliekis.github.io/zolynu-paslaptys/static/media/dilgele2.20ff2a20.jpg",
+    "static/media/dilgele3.jpg": "//robertasliekis.github.io/zolynu-paslaptys/static/media/dilgele3.eed07b2a.jpg",
+    "static/media/dobilas1.jpg": "//robertasliekis.github.io/zolynu-paslaptys/static/media/dobilas1.40a3f296.jpg",
+    "static/media/dobilas2.jpg": "//robertasliekis.github.io/zolynu-paslaptys/static/media/dobilas2.3576f5be.jpg",
+    "static/media/dobilas3.jpg": "//robertasliekis.github.io/zolynu-paslaptys/static/media/dobilas3.d889b1a5.jpg",
+    "static/media/pakalnute1.jpg": "//robertasliekis.github.io/zolynu-paslaptys/static/media/pakalnute1.f24fa468.jpg",
+    "static/media/pakalnute2.jpg": "//robertasliekis.github.io/zolynu-paslaptys/static/media/pakalnute2.26b531bf.jpg",
+    "static/media/pakalnute3.jpg": "//robertasliekis.github.io/zolynu-paslaptys/static/media/pakalnute3.0af14ce5.jpg",
+    "static/media/index.css": "//robertasliekis.github.io/zolynu-paslaptys/static/media/video_screenshot.f8a06eb1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23083dbb.js",
+    "static/js/2.aab99417.chunk.js",
+    "static/css/main.f7fa8f3b.chunk.css",
+    "static/js/main.d1bacc4f.chunk.js"
+  ]
+}
