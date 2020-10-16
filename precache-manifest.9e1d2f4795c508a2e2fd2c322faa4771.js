@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "937262cc5bedbdd9d1249af2f31c3da5",
+    "revision": "4a01197f7fe07dd75630cc0f71354a96",
     "url": "//robertasliekis.github.io/zolynu-paslaptys/index.html"
   },
   {
-    "revision": "a83ef639df184eae9998",
+    "revision": "091d8ad39cbc073b2209",
     "url": "//robertasliekis.github.io/zolynu-paslaptys/static/css/main.ab70f924.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "//robertasliekis.github.io/zolynu-paslaptys/static/js/2.cf3f5806.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a83ef639df184eae9998",
-    "url": "//robertasliekis.github.io/zolynu-paslaptys/static/js/main.260fd867.chunk.js"
+    "revision": "091d8ad39cbc073b2209",
+    "url": "//robertasliekis.github.io/zolynu-paslaptys/static/js/main.4e94efd8.chunk.js"
   },
   {
     "revision": "375ca10e70c5940d34da",
