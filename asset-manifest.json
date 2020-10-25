@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "//robertasliekis.github.io/zolynu-paslaptys/static/css/main.75961b0c.chunk.css",
-    "main.js": "//robertasliekis.github.io/zolynu-paslaptys/static/js/main.6471744c.chunk.js",
-    "main.js.map": "//robertasliekis.github.io/zolynu-paslaptys/static/js/main.6471744c.chunk.js.map",
+    "main.js": "//robertasliekis.github.io/zolynu-paslaptys/static/js/main.4c4966a9.chunk.js",
+    "main.js.map": "//robertasliekis.github.io/zolynu-paslaptys/static/js/main.4c4966a9.chunk.js.map",
     "runtime-main.js": "//robertasliekis.github.io/zolynu-paslaptys/static/js/runtime-main.23083dbb.js",
     "runtime-main.js.map": "//robertasliekis.github.io/zolynu-paslaptys/static/js/runtime-main.23083dbb.js.map",
     "static/js/2.900c1805.chunk.js": "//robertasliekis.github.io/zolynu-paslaptys/static/js/2.900c1805.chunk.js",
     "static/js/2.900c1805.chunk.js.map": "//robertasliekis.github.io/zolynu-paslaptys/static/js/2.900c1805.chunk.js.map",
     "index.html": "//robertasliekis.github.io/zolynu-paslaptys/index.html",
-    "precache-manifest.322ed2155675fc30857d680836d3a58e.js": "//robertasliekis.github.io/zolynu-paslaptys/precache-manifest.322ed2155675fc30857d680836d3a58e.js",
+    "precache-manifest.c807b6f1377ee9add4a08062970625a4.js": "//robertasliekis.github.io/zolynu-paslaptys/precache-manifest.c807b6f1377ee9add4a08062970625a4.js",
     "service-worker.js": "//robertasliekis.github.io/zolynu-paslaptys/service-worker.js",
     "static/css/main.75961b0c.chunk.css.map": "//robertasliekis.github.io/zolynu-paslaptys/static/css/main.75961b0c.chunk.css.map",
     "static/js/2.900c1805.chunk.js.LICENSE.txt": "//robertasliekis.github.io/zolynu-paslaptys/static/js/2.900c1805.chunk.js.LICENSE.txt",
@@ -157,6 +157,6 @@
     "static/js/runtime-main.23083dbb.js",
     "static/js/2.900c1805.chunk.js",
     "static/css/main.75961b0c.chunk.css",
-    "static/js/main.6471744c.chunk.js"
+    "static/js/main.4c4966a9.chunk.js"
   ]
 }
