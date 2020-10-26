@@ -484,8 +484,8 @@ body {
         transition: 1s all ease;
         border: 3px solid transparent;
         z-index: 2;
-        //  border: 2px solid green;
-        //background-color: rgba($color: #ff0000, $alpha: 0.9);
+        //border: 2px solid green;
+        // background-color: rgba($color: #ff0000, $alpha: 0.9);
         padding: 2.4%;
         .hover-box {
           height: 82%;
@@ -601,10 +601,45 @@ body {
   }
 
   .container-zones-animation {
-    transition-delay: 13s;
-    //  transition-delay: 1s;
+    //transition-delay: 13s;
+    /////new transition
+    transition-delay: 8s;
     opacity: 1;
     z-index: 2;
+    .corner-videos-container {
+      animation-duration: 14s;
+      animation-fill-mode: forwards;
+      animation-name: corner-videos-container-animation;
+    }
+    .border-box-button {
+      // border: 4px solid black;
+      // background-color: green;
+      animation-duration: 14s;
+      animation-fill-mode: forwards;
+      animation-name: border-box-button-animation;
+    }
+    @keyframes corner-videos-container-animation {
+      0% {
+        opacity: 0;
+      }
+      90% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    @keyframes border-box-button-animation {
+      0% {
+        z-index: 1;
+      }
+      99% {
+        z-index: 1;
+      }
+      100% {
+        z-index: 2;
+      }
+    }
   }
   .plant-info-container-clicked {
     width: 100%;
@@ -679,7 +714,7 @@ body {
   .border-box-button {
     @include displayFlex();
     font-size: 2rem;
-    z-index: 3;
+    z-index: 1;
     border: 3px solid transparent;
     width: 20%;
   }
