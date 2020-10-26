@@ -11,6 +11,41 @@
  * See https://goo.gl/2aRDsh
  */
 
+var CACHE_NAME = "skillbakery-cache";
+var urlsToCache = [
+  "/",
+  "/favicon.ico",
+  "/manifest.json",
+  "/service-worker.js",
+  "/index.html",
+  "/static/js/2.34663726.chunk.js",
+  "/static/js/main.30b58cec.chunk.js",
+  "/static/js/runtime-main.23083dbb.js",
+  "/static/css/main.4694978b.chunk.css",
+  "/static/media/open_page_movie.2ddcc5a8.mp4",
+  "/static/media/open_page.9d2067e4.mp4",
+  "/static/media/ziniuone_movie.1a5b4fb4.mp4",
+  "/static/media/page0.2d2033ce.mp4",
+  "/static/media/page1.2f567873.mp4",
+  "/static/media/page1plants.b94e7387.mp4",
+  "/static/media/page2.65f4775c.mp4",
+  "/static/media/page2plants.8350b401.mp4",
+  "/static/media/page3.e794bdd4.mp4",
+  "/static/media/page3plants.cc770a41.mp4",
+  "/static/media/page4.de096ea8.mp4",
+  "/static/media/page4plants.056d0d33.mp4",
+  "/static/media/page5.1bb744b8.mp4",
+  "/static/media/page5plants.2395f65a.mp4",
+  "/static/media/page6.5a332c9a.mp4",
+  "/static/media/page6plants.d27cf720.mp4",
+  "/static/media/page7.67ea878a.mp4",
+  "/static/media/page7plants.1036f9cb.mp4",
+  "/static/media/forrest.5b184e3c.mp3",
+  "/static/media/garden.57d91bd3.mp3",
+  "/static/media/meadow.51582553.mp3",
+  "/static/media/plants_moving.969993f3.mp3"
+];
+
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts("/precache-manifest.cb2cd9f09a0da91154a6e10288d4571e.js");
@@ -67,18 +102,5 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/index.html"), {
-  blacklist: [/^\/_/, /\/[^/?]+\.[^/]+$/],
+  blacklist: [/^\/_/, /\/[^/?]+\.[^/]+$/]
 });
-
-var CACHE_NAME = "skillbakery-cache";
-var urlsToCache = [
-  "/",
-  "/favicon.ico",
-  "/manifest.json",
-  "/service-worker.js",
-  "/index.html",
-  "/static/js/2.cf3f5806.chunk.js",
-  "/static/js/main.43e3f26f.chunk.js",
-  "/static/js/runtime-main.4910aef2.js",
-  "/static/css/main.d0cf45c5.chunk.css",
-];

@@ -84,7 +84,7 @@ body {
   position: relative;
   background-color: rgb(250, 238, 212);
   overflow: hidden;
-  // cursor: none;
+  cursor: none;
   .page-wrapper {
     @include positionAbsoluteCenter();
     z-index: 1;
@@ -101,7 +101,7 @@ body {
 }
 
 .hand-image {
-  z-index: 10;
+  z-index: 3;
   @include positionAbsoluteCenter();
   width: 20rem;
   height: 20rem;
@@ -114,6 +114,7 @@ body {
   animation-duration: 10s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
+  // border: 1px solid red;
 }
 .hand-image-animation {
   animation-delay: 40s;
@@ -469,7 +470,7 @@ body {
     z-index: 0;
     opacity: 0;
     padding: 1rem;
-    transition: 2s all ease;
+    transition: 0.7s all ease;
     .plants-wrapper {
       @include displayFlex();
       flex-wrap: wrap;
@@ -483,7 +484,8 @@ body {
         transition: 1s all ease;
         border: 3px solid transparent;
         z-index: 2;
-        //border: 2px solid green;
+        //  border: 2px solid green;
+        //background-color: rgba($color: #ff0000, $alpha: 0.9);
         padding: 2.4%;
         .hover-box {
           height: 82%;
@@ -599,7 +601,7 @@ body {
   }
 
   .container-zones-animation {
-    transition-delay: 13.5s;
+    transition-delay: 13s;
     //  transition-delay: 1s;
     opacity: 1;
     z-index: 2;

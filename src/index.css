@@ -88,6 +88,7 @@ body {
   position: relative;
   background-color: #faeed4;
   overflow: hidden;
+  cursor: none;
 }
 
 .content-wrapper .page-wrapper {
@@ -111,7 +112,7 @@ body {
 }
 
 .hand-image {
-  z-index: 10;
+  z-index: 3;
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -797,8 +798,8 @@ body {
   z-index: 0;
   opacity: 0;
   padding: 1rem;
-  -webkit-transition: 2s all ease;
-  transition: 2s all ease;
+  -webkit-transition: 0.7s all ease;
+  transition: 0.7s all ease;
 }
 
 .info-containers-plants .container-zones .plants-wrapper {
@@ -1025,8 +1026,8 @@ body {
 }
 
 .info-containers-plants .container-zones-animation {
-  -webkit-transition-delay: 13.5s;
-          transition-delay: 13.5s;
+  -webkit-transition-delay: 13s;
+          transition-delay: 13s;
   opacity: 1;
   z-index: 2;
 }
