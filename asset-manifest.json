@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "//robertasliekis.github.io/zolynu-paslaptys/static/css/main.0d70bbb4.chunk.css",
-    "main.js": "//robertasliekis.github.io/zolynu-paslaptys/static/js/main.30b58cec.chunk.js",
-    "main.js.map": "//robertasliekis.github.io/zolynu-paslaptys/static/js/main.30b58cec.chunk.js.map",
+    "main.css": "//robertasliekis.github.io/zolynu-paslaptys/static/css/main.a3e0ce36.chunk.css",
+    "main.js": "//robertasliekis.github.io/zolynu-paslaptys/static/js/main.7725a411.chunk.js",
+    "main.js.map": "//robertasliekis.github.io/zolynu-paslaptys/static/js/main.7725a411.chunk.js.map",
     "runtime-main.js": "//robertasliekis.github.io/zolynu-paslaptys/static/js/runtime-main.23083dbb.js",
     "runtime-main.js.map": "//robertasliekis.github.io/zolynu-paslaptys/static/js/runtime-main.23083dbb.js.map",
     "static/js/2.34663726.chunk.js": "//robertasliekis.github.io/zolynu-paslaptys/static/js/2.34663726.chunk.js",
     "static/js/2.34663726.chunk.js.map": "//robertasliekis.github.io/zolynu-paslaptys/static/js/2.34663726.chunk.js.map",
     "index.html": "//robertasliekis.github.io/zolynu-paslaptys/index.html",
-    "precache-manifest.23bdcbdf1a86e0e51a0072415bfb57e2.js": "//robertasliekis.github.io/zolynu-paslaptys/precache-manifest.23bdcbdf1a86e0e51a0072415bfb57e2.js",
+    "precache-manifest.dfeab5fe5f771ae57200c0d9efc8daf3.js": "//robertasliekis.github.io/zolynu-paslaptys/precache-manifest.dfeab5fe5f771ae57200c0d9efc8daf3.js",
     "service-worker.js": "//robertasliekis.github.io/zolynu-paslaptys/service-worker.js",
-    "static/css/main.0d70bbb4.chunk.css.map": "//robertasliekis.github.io/zolynu-paslaptys/static/css/main.0d70bbb4.chunk.css.map",
+    "static/css/main.a3e0ce36.chunk.css.map": "//robertasliekis.github.io/zolynu-paslaptys/static/css/main.a3e0ce36.chunk.css.map",
     "static/js/2.34663726.chunk.js.LICENSE.txt": "//robertasliekis.github.io/zolynu-paslaptys/static/js/2.34663726.chunk.js.LICENSE.txt",
     "static/media/10_ajeras_1.jpg": "//robertasliekis.github.io/zolynu-paslaptys/static/media/10_ajeras_1.5dbfa95e.jpg",
     "static/media/10_ajeras_2.jpg": "//robertasliekis.github.io/zolynu-paslaptys/static/media/10_ajeras_2.9960e6e8.jpg",
@@ -156,7 +156,7 @@
   "entrypoints": [
     "static/js/runtime-main.23083dbb.js",
     "static/js/2.34663726.chunk.js",
-    "static/css/main.0d70bbb4.chunk.css",
-    "static/js/main.30b58cec.chunk.js"
+    "static/css/main.a3e0ce36.chunk.css",
+    "static/js/main.7725a411.chunk.js"
   ]
 }
