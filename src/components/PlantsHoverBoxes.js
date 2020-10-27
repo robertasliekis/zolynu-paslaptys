@@ -8,7 +8,7 @@ export class PlantsHoverBoxes extends Component {
       this.props.pageNumber * 4 - 3,
       this.props.pageNumber * 4 - 2,
       this.props.pageNumber * 4 - 1,
-      this.props.pageNumber * 4,
+      this.props.pageNumber * 4
     ];
 
     const plantContainerNumbers = [1, 2, 3, 4];
@@ -28,6 +28,7 @@ export class PlantsHoverBoxes extends Component {
             >
               {plantNumbers[index]}
             </div>
+            //aaaa
           );
         })}
 
@@ -65,7 +66,7 @@ export class PlantsHoverBoxes extends Component {
 
 const mapStateToProps = (state) => {
   return {
-    pageNumber: state.changePageNumber.pageNumber,
+    pageNumber: state.changePageNumber.pageNumber
   };
 };
 
