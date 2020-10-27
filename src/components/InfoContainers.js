@@ -745,7 +745,7 @@ export class InfoContainers extends Component {
         });
         this.audioForrestRef.current.pause();
         this.movieRef.current.muted = false;
-        this.movieRef.current.volume = 0.7;
+        // this.movieRef.current.volume = 0.7;
         // this.openPageMovieRef.current.play();
         this.movieRef.current.play();
         break;
