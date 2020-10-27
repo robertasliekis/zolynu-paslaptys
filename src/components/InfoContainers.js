@@ -734,6 +734,9 @@ export class InfoContainers extends Component {
         this.setState({
           personContainerOpen: true
         });
+        this.audioForrestRef.current.volume = 0.01;
+
+        this.audioForrestRef.current.play();
         break;
       }
       case "video": {
@@ -741,8 +744,9 @@ export class InfoContainers extends Component {
           videoContainerOpen: true
         });
         this.audioForrestRef.current.pause();
-        this.openPageMovieRef.current.play();
         this.movieRef.current.muted = false;
+        this.movieRef.current.volume = 0.7;
+        // this.openPageMovieRef.current.play();
         this.movieRef.current.play();
         break;
       }
@@ -898,7 +902,7 @@ export class InfoContainers extends Component {
       }
     }
     //if (this.props.pageNumber >= 0 && this.props.pageNumber !== prevProps.pageNumber) {
-    if (this.props.pageNumber !== prevProps.pageNumber) {
+    if (this.props.pageNumber !== prevProps.pageNumber || this.props.pageChangeCount !== prevProps.pageChangeCount) {
       if (this.videoRef.current.readyState >= 3) {
         this.videoRef.current.currentTime = 0;
         this.videoRef.current.play();
@@ -1225,7 +1229,8 @@ export class InfoContainers extends Component {
 
 const mapStateToProps = (state) => {
   return {
-    pageNumber: state.changePageNumber.pageNumber
+    pageNumber: state.changePageNumber.pageNumber,
+    pageChangeCount: state.changePageNumber.pageChangeCount
   };
 };
 

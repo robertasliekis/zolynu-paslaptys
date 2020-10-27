@@ -136,8 +136,8 @@ body {
 }
 
 .hand-image-animation {
-  -webkit-animation-delay: 40s;
-          animation-delay: 40s;
+  -webkit-animation-delay: 50s;
+          animation-delay: 50s;
   -webkit-animation-name: hand-animation;
           animation-name: hand-animation;
 }
@@ -396,14 +396,13 @@ body {
 }
 
 .info-containers .window .window-content .content .image-container {
-  width: 57%;
-  height: 61%;
+  width: 56%;
+  height: 60%;
+  margin-bottom: 1.2%;
+  margin-right: 1.4%;
   position: relative;
-  opacity: 1;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
-  margin-bottom: 1rem;
-  margin-right: 0.3rem;
 }
 
 .info-containers .window .window-content .content .image-container .image-frame {

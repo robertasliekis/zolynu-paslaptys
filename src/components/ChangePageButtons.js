@@ -49,7 +49,7 @@ export class ChangePageButtons extends Component {
         this.clearTimer();
       }
     }
-    if (this.props.pageNumber !== prevProps.pageNumber) {
+    if (this.props.pageNumber !== prevProps.pageNumber || this.props.pageChangeCount !== prevProps.pageChangeCount) {
       this.setState({ hovered: false });
       this.clearTimer();
     }
@@ -93,7 +93,8 @@ export class ChangePageButtons extends Component {
 
 const mapStateToProps = (state) => {
   return {
-    pageNumber: state.changePageNumber.pageNumber
+    pageNumber: state.changePageNumber.pageNumber,
+    pageChangeCount: state.changePageNumber.pageChangeCount
   };
 };
 
