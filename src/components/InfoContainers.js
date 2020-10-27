@@ -921,7 +921,7 @@ export class InfoContainers extends Component {
       this.setState({
         hovered: false,
         plantDisplay: false,
-        handDisplay: true,
+        handDisplay: false,
         personContainerOpen: false,
         videoContainerOpen: false,
         textScrollColumn: 1,
@@ -929,6 +929,12 @@ export class InfoContainers extends Component {
       });
       this.movieRef.current.pause();
       this.movieRef.current.currentTime = 0;
+
+      if (this.props.pageNumber === 0) {
+        this.setState({
+          handDisplay: true
+        });
+      }
 
       //change page animation
 
