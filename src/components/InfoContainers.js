@@ -930,12 +930,6 @@ export class InfoContainers extends Component {
       this.movieRef.current.pause();
       this.movieRef.current.currentTime = 0;
 
-      if (this.props.pageNumber === 0) {
-        this.setState({
-          handDisplay: true
-        });
-      }
-
       //change page animation
 
       this.containerZoneRef.current.classList.remove("container-zones-animation");
