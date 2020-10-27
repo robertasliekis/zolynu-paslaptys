@@ -921,7 +921,7 @@ export class InfoContainers extends Component {
       this.setState({
         hovered: false,
         plantDisplay: false,
-        handDisplay: false,
+        handDisplay: true,
         personContainerOpen: false,
         videoContainerOpen: false,
         textScrollColumn: 1,
