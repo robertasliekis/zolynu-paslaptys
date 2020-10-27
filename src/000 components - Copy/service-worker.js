@@ -43,7 +43,8 @@ var urlsToCache = [
   "/static/media/forrest.5b184e3c.mp3",
   "/static/media/garden.57d91bd3.mp3",
   "/static/media/meadow.51582553.mp3",
-  "/static/media/plants_moving.969993f3.mp3"
+  "/static/media/plants_moving.969993f3.mp3",
+  "/static/media/ziniuone_movie_audio.900cf3cf.mp3"
 ];
 
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
