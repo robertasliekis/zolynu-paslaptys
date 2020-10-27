@@ -29,6 +29,7 @@ import forrestSound from "../sounds/forrest.mp3";
 import meadowSound from "../sounds/meadow.mp3";
 import gardenSound from "../sounds/garden.mp3";
 import plantSound from "../sounds/plants_moving.mp3";
+import movieAudio from "../sounds/ziniuone_movie_audio.mp3";
 
 //import plants from "./PlantsInfo";
 
@@ -690,6 +691,7 @@ export class InfoContainers extends Component {
     this.plantAudioRightRef = React.createRef();
     this.plantAudioLeftTopRef = React.createRef();
     this.plantAudioRightTopRef = React.createRef();
+    this.movieAudioRef = React.createRef();
   }
 
   //Hover plant handler start
@@ -744,9 +746,11 @@ export class InfoContainers extends Component {
           videoContainerOpen: true
         });
         this.audioForrestRef.current.pause();
-        this.movieRef.current.muted = false;
-        // this.movieRef.current.volume = 0.7;
-        // this.openPageMovieRef.current.play();
+
+        //this.movieRef.current.muted = false;
+        this.movieAudioRef.current.play();
+        this.movieRef.current.volume = 0.7;
+        //  this.openPageMovieRef.current.play();
         this.movieRef.current.play();
         break;
       }
@@ -795,6 +799,7 @@ export class InfoContainers extends Component {
           textScrollColumn: 1,
           imageCarouselScaled: false
         });
+        this.movieAudioRef.current.pause();
 
         this.clearTimer();
         if (this.props.pageNumber === 0) {
@@ -901,6 +906,10 @@ export class InfoContainers extends Component {
         this.audioGardenRef.current.volume = 1;
       }
     }
+    if (this.props.pageNumber === this.props.page) {
+      this.movieAudioRef.current.pause();
+    }
+
     //if (this.props.pageNumber >= 0 && this.props.pageNumber !== prevProps.pageNumber) {
     if (this.props.pageNumber !== prevProps.pageNumber || this.props.pageChangeCount !== prevProps.pageChangeCount) {
       if (this.videoRef.current.readyState >= 3) {
@@ -971,6 +980,9 @@ export class InfoContainers extends Component {
       <div className="info-containers info-containers-plants">
         {this.props.pageNumber === this.props.page ? (
           <div>
+            <audio ref={this.movieAudioRef}>
+              <source src={movieAudio}></source>
+            </audio>
             {this.props.pageNumber >= 0 && this.props.pageNumber < 4 ? (
               <audio loop autoPlay ref={this.audioForrestRef}>
                 <source src={forrestSound}></source>
